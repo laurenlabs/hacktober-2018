@@ -1,0 +1,52 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# sass
+.sass-cache/
+*.css.map
+
+# CSS files are generated from scss files and node-sass
+# Generated files should be excluded from source control
+public/styles/main.css
+public/styles/main.css.map
+
+# Exclude NYC coverage files from source
+/.nyc_output
+
+# Exclude generated cypress files
+/tests/e2e/screenshots/
+/tests/e2e/videos/
+/dist
+/.next
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+Dockerrun.aws.json

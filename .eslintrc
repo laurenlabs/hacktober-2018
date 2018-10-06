@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "prettier/standard",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": true,
+    "foo": true,
+    "window": true,
+    "fetch": true,
+    "Image": true,
+    "navigator": true,
+    "URL": true,
+    "test": true,
+    "describe": true,
+    "it": true,
+    "before": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "expect": true,
+    "context": true,
+    "cy": true,
+    "Cypress": true
+  },
+  "rules": {
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [ "Link" ],
+        "specialLink": [ "hrefLeft", "hrefRight" ],
+        "aspects": [ "invalidHref", "preferButton" ]
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "components": ["Label"],
+        "specialLink": ["htmlFor"],
+        "required": {
+          "every": ["nesting", "id"]
+        },
+        "allowChildren": false
+      }
+    ],
+    "no-unused-expressions": "off",
+    "class-methods-use-this": "off"
+  }
+}
