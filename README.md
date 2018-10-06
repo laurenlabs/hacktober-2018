@@ -3,6 +3,9 @@
 ---
 
 ## Contributors
+**Namasya Panda**
+## quote
+**A good teacher can inspire hope, ignite the imagination, and instill a love of learning. ...**
 
 
 ---
