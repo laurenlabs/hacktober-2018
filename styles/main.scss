@@ -9,20 +9,21 @@
   height: 100vh;
 }
 
-#footer {
-  background: #ccc;
-  min-height: 4rem;
+#header {
+  height: 10vh;
+  background: #111;
+  color: #fff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
   a {
     text-decoration: none;
-  }
-}
+    color: #fff;
 
-@media (max-width: 430px) {
-  #footer {
-    flex-flow: column;
+    &:hover {
+      color: #ccc;
+      transition: color 300ms ease-in-out;
+    }
   }
 }
