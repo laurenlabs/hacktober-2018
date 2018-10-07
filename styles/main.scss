@@ -13,9 +13,10 @@
 
 }
 /* --- end - home page ---   */
+
+/* --- header --- */
 .header {
   background-color: #2c80b9;
-  height: 68px;
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -24,10 +25,12 @@
   margin-right: 20px;
   color: #FFF;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
 }
-/* --- header --- */
-
+.header__item:hover {
+  color: #2c80b9;
+  background-color: #FFF;
+}
 /* --- end - header ---   */
 
 #main {
