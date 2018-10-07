@@ -3,7 +3,7 @@
 ---
 
 ## Contributors
-
+[Rohan Goel](https://goelrohan6.github.io) - You can either watch it happen or be a part of it
 
 ---
 
