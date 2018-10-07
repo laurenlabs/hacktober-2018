@@ -6,8 +6,7 @@ const style = {
   height: '68px',
   display: 'flex',
   alignItems: 'center',
-  paddingLeft: '20px',
-  fontFamily: 'Arial'
+  paddingLeft: '20px'
 };
 
 const styleLink = {
@@ -15,7 +14,8 @@ const styleLink = {
   color: '#FFF',
   textDecoration: 'none',
   padding: '10px',
-  borderRight: '1px solid #FFF'
+  fontFamily: 'Arial'
+  // borderRight: '1px solid #FFF'
 };
 
 const Header = () => (
@@ -33,10 +33,10 @@ const Header = () => (
       <a style={styleLink}>Hacktoberfest 2k18</a>
     </Link>
     <Link href="/">
-      <a>About</a>
+      <a style={styleLink}>About</a>
     </Link>
     <Link href="/">
-      <a>Spectacular</a>
+      <a style={styleLink}>Spectacular</a>
     </Link>
   </div>
 );
