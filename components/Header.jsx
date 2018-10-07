@@ -6,17 +6,17 @@ const style = {
   height: '68px',
   display: 'flex',
   alignItems: 'center',
-  paddingLeft: '20px',
-  fontFamily: 'Arial'
-}
+  paddingLeft: '20px'
+};
 
 const styleLink = {
   marginRight: '20px',
   color: '#FFF',
   textDecoration: 'none',
   padding: '10px',
-  borderRight: '1px solid #FFF'
-}
+  fontFamily: 'Arial'
+  // borderRight: '1px solid #FFF'
+};
 
 const Header = () => (
   <div style={style}>
