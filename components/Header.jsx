@@ -6,17 +6,17 @@ const style = {
   height: '68px',
   display: 'flex',
   alignItems: 'center',
-  paddingLeft: '20px',
-  fontFamily: 'Arial'
-}
+  paddingLeft: '20px'
+};
 
 const styleLink = {
   marginRight: '20px',
   color: '#FFF',
   textDecoration: 'none',
   padding: '10px',
-  borderRight: '1px solid #FFF'
-}
+  fontFamily: 'Arial'
+  // borderRight: '1px solid #FFF'
+};
 
 const Header = () => (
   <div id="header">
@@ -26,18 +26,17 @@ const Header = () => (
     <Link href="/random-users">
       <a style={styleLink}>API - Random Users</a>
     </Link>
-    &nbsp;|&nbsp;
     <Link href="https://hacktoberfest.digitalocean.com/">
-      <a>Hacktoberfest</a>
+      <a style={styleLink}>Hacktoberfest</a>
     </Link>
     <Link href="/Hacktoberfest">
-      <a style={{ paddingLeft: 10 }}>Hacktoberfest 2k18</a>
+      <a style={styleLink}>Hacktoberfest 2k18</a>
     </Link>
     <Link href="/">
-      <a>About</a>
+      <a style={styleLink}>About</a>
     </Link>
     <Link href="/">
-      <a>Spectacular</a>
+      <a style={styleLink}>Spectacular</a>
     </Link>
   </div>
 );
