@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
@@ -14,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.0",
+    "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"

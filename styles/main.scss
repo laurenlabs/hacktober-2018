@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#footer {
+  background: #ccc;
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 430px) {
+  #footer {
+    flex-flow: column;
+  }
+}
