@@ -6,6 +6,9 @@ const Header = () => (
     <Link href="/">
       <a>Home</a>
     </Link>
+    <Link href="/Hacktoberfest">
+      <a style={{ paddingLeft: 10 }}>Hacktoberfest 2k18</a>
+    </Link>
   </div>
 );
 
