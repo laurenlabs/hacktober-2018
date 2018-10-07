@@ -26,6 +26,10 @@ const Header = () => (
     <Link href="/random-users">
       <a style={styleLink}>API - Random Users</a>
     </Link>
+    &nbsp;|&nbsp;
+    <Link href="https://hacktoberfest.digitalocean.com/">
+      <a>Hacktoberfest</a>
+    </Link>
   </div>
 );
 
