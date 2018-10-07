@@ -6,6 +6,10 @@ const Header = () => (
     <Link href="/">
       <a>Home</a>
     </Link>
+    &nbsp;|&nbsp;
+    <Link href="https://hacktoberfest.digitalocean.com/">
+      <a>Hacktoberfest</a>
+    </Link>
   </div>
 );
 
