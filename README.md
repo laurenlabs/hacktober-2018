@@ -3,6 +3,9 @@
 ---
 
 ## Contributors
+**Namasya Panda**
+## quote
+**A good teacher can inspire hope, ignite the imagination, and instill a love of learning. ...**
 
 biwkf. "If you look for perfection, you'll never be content" - Leo Tolstoy
 
