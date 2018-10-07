@@ -4,6 +4,16 @@
 
 ## Contributors
 
+JillG. **The only true wisdom is in knowing you know nothing.**
+
+**Namasya Panda**
+## quote
+**A good teacher can inspire hope, ignite the imagination, and instill a love of learning. ...**
+
+biwkf. "If you look for perfection, you'll never be content" - Leo Tolstoy
+
+[Rohan Goel](https://goelrohan6.github.io) - You can either watch it happen or be a part of it
+
 
 ---
 
