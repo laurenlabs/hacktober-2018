@@ -8,7 +8,7 @@ const style = {
   alignItems: 'center',
   paddingLeft: '20px',
   fontFamily: 'Arial'
-}
+};
 
 const styleLink = {
   marginRight: '20px',
@@ -16,7 +16,7 @@ const styleLink = {
   textDecoration: 'none',
   padding: '10px',
   borderRight: '1px solid #FFF'
-}
+};
 
 const Header = () => (
   <div style={style}>
@@ -26,12 +26,11 @@ const Header = () => (
     <Link href="/random-users">
       <a style={styleLink}>API - Random Users</a>
     </Link>
-    &nbsp;|&nbsp;
     <Link href="https://hacktoberfest.digitalocean.com/">
-      <a>Hacktoberfest</a>
+      <a style={styleLink}>Hacktoberfest</a>
     </Link>
     <Link href="/Hacktoberfest">
-      <a style={{ paddingLeft: 10 }}>Hacktoberfest 2k18</a>
+      <a style={styleLink}>Hacktoberfest 2k18</a>
     </Link>
   </div>
 );
