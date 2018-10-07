@@ -19,25 +19,24 @@ const styleLink = {
 }
 
 const Header = () => (
-  <div id="header">
+  <div style={style}>
     <Link href="/">
       <a style={styleLink}>Home</a>
     </Link>
     <Link href="/random-users">
       <a style={styleLink}>API - Random Users</a>
     </Link>
-    &nbsp;|&nbsp;
     <Link href="https://hacktoberfest.digitalocean.com/">
-      <a>Hacktoberfest</a>
+      <a style={styleLink}>Hacktoberfest</a>
     </Link>
     <Link href="/Hacktoberfest">
-      <a style={{ paddingLeft: 10 }}>Hacktoberfest 2k18</a>
+      <a style={styleLink}>Hacktoberfest 2k18</a>
     </Link>
     <Link href="/">
-      <a>About</a>
+      <a style={styleLink}>About</a>
     </Link>
     <Link href="/">
-      <a>Spectacular</a>
+      <a style={styleLink}>Spectacular</a>
     </Link>
   </div>
 );
