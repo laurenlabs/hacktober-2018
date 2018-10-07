@@ -26,6 +26,9 @@ const Header = () => (
     <Link href="/random-users">
       <a style={styleLink}>API - Random Users</a>
     </Link>
+    <Link href="/pokemon">
+      <a style={styleLink}>Pokemon</a>
+    </Link>
     <Link href="https://hacktoberfest.digitalocean.com/">
       <a style={styleLink}>Hacktoberfest</a>
     </Link>
