@@ -10,7 +10,7 @@ const Pokemon = ({pokemons}) => {
         <div style={{ display: 'flex' }}>
           {
             pokemons.types.map(type => {
-              return <p style={{ paddingRight: 10 }}>{type.type.name}</p>
+              return <p key={Math.random()} style={{ paddingRight: 10 }}>{type.type.name}</p>
             })
           }
         </div>
