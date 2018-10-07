@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#header {
+  height: 10vh;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: #ccc;
+      transition: color 300ms ease-in-out;
+    }
+  }
+}
