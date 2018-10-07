@@ -19,7 +19,7 @@ const styleLink = {
 };
 
 const Header = () => (
-  <div id="header">
+  <div style={style}>
     <Link href="/">
       <a style={styleLink}>Home</a>
     </Link>
