@@ -19,7 +19,7 @@ const styleLink = {
 }
 
 const Header = () => (
-  <div style={style}>
+  <div id="header">
     <Link href="/">
       <a style={styleLink}>Home</a>
     </Link>
@@ -32,6 +32,12 @@ const Header = () => (
     </Link>
     <Link href="/Hacktoberfest">
       <a style={{ paddingLeft: 10 }}>Hacktoberfest 2k18</a>
+    </Link>
+    <Link href="/">
+      <a>About</a>
+    </Link>
+    <Link href="/">
+      <a>Spectacular</a>
     </Link>
   </div>
 );
