@@ -52,6 +52,42 @@
   }
 }
 
+/* ==========================================================================
+  RANDOM USERS PAGE
+========================================================================== */
+.contentCards{
+  padding: 10px;
+  width: 100vw;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+.contentCards__card{
+  background-color: #82A0BC;
+  color: #FFF;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+}
+.card__image{
+  border-radius: 100%;
+}
+.card__name{
+  text-transform: capitalize
+}
+.card__description{
+  background-color: #82A0BC;
+  color: #FFF;
+  padding: 5px;
+}
+
 
 #main {
   display: flex;
