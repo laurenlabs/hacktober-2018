@@ -12,8 +12,9 @@ JillG. **The only true wisdom is in knowing you know nothing.**
 
 biwkf. "If you look for perfection, you'll never be content" - Leo Tolstoy
 
-[Rohan Goel](https://goelrohan6.github.io) - You can either watch it happen or be a part of it
+[Rohan Goel](https://goelrohan6.github.io) - You can either watch it happen or be a part of it.
 
+[Athyk](https://github.com/athyk) - It’s not a bug – it’s an undocumented feature.
 
 ---
 
