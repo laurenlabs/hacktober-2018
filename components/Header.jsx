@@ -1,45 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
 
-const style = {
-  backgroundColor: '#2c80b9',
-  height: '68px',
-  display: 'flex',
-  alignItems: 'center',
-  paddingLeft: '20px'
-};
-
-const styleLink = {
-  marginRight: '20px',
-  color: '#FFF',
-  textDecoration: 'none',
-  padding: '10px',
-  fontFamily: 'Arial'
-  // borderRight: '1px solid #FFF'
-};
-
 const Header = () => (
-  <div style={style}>
+  <div className="header">
     <Link href="/">
-      <a style={styleLink}>Home</a>
+      <a className="header__item">Home</a>
     </Link>
     <Link href="/random-users">
-      <a style={styleLink}>API - Random Users</a>
+      <a className="header__item">API - Random Users</a>
     </Link>
     <Link href="/pokemon">
-      <a style={styleLink}>Pokemon</a>
+      <a className="header__item">Pokemon</a>
     </Link>
     <Link href="https://hacktoberfest.digitalocean.com/">
-      <a style={styleLink}>Hacktoberfest</a>
+      <a className="header__item">Hacktoberfest</a>
     </Link>
     <Link href="/Hacktoberfest">
-      <a style={styleLink}>Hacktoberfest 2k18</a>
+      <a className="header__item">Hacktoberfest 2k18</a>
     </Link>
     <Link href="/">
-      <a style={styleLink}>About</a>
+      <a className="header__item">About</a>
     </Link>
     <Link href="/">
-      <a style={styleLink}>Spectacular</a>
+      <a className="header__item">Spectacular</a>
     </Link>
   </div>
 );
