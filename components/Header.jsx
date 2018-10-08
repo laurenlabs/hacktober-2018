@@ -12,6 +12,9 @@ const Header = () => (
     <Link href="/pokemon">
       <a className="header__item">Pokemon</a>
     </Link>
+    <Link href="/weather">
+      <a className="header__item">Weather</a>
+    </Link>
     <Link href="https://hacktoberfest.digitalocean.com/">
       <a className="header__item">Hacktoberfest</a>
     </Link>
