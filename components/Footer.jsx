@@ -13,7 +13,7 @@ const style = {
 
 const Footer = () => (
   <div style={style}>
-    <p>This is the footer.</p>
+    <p>Hacktober 2018</p>
   </div>
 );
 
