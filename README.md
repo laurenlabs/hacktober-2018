@@ -16,6 +16,8 @@ biwkf. "If you look for perfection, you'll never be content" - Leo Tolstoy
 
 [Athyk](https://github.com/athyk) - It’s not a bug – it’s an undocumented feature.
 
+[Flixie](https://github.com/flixie) - How lucky I am to have something that makes saying goodbye so hard.
+
 ---
 
 ## Directions 
