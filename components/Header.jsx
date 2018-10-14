@@ -27,6 +27,9 @@ const Header = () => (
     <Link href="/">
       <a className="header__item">Spectacular</a>
     </Link>
+    <Link href="/cat">
+      <a className="header__item">Cat</a>
+    </Link>
   </div>
 );
 
