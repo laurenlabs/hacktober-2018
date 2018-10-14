@@ -6,6 +6,12 @@ const urlWeather = 'http://api.openweathermap.org/data/2.5/weather';
 // https://openweathermap.org/api
 const weatherapikey = "xxx";
 
+const servicesURL = {
+    quote: {
+        uri: 'https://favqs.com/api/qotd'
+    }
+}
+
 const getRandomUsers = (callback) => {
     axios.get(`${urlRandomUsers}/?results=10`, {
         headers: {'Content-Type': 'application/json'}
@@ -20,8 +26,14 @@ const getWeather = (callback) => {
     .catch( (err) => callback({error: err}))
 }
 
+const getDailyQuote = () => {
+    return axios.get(servicesURL.quote.uri)
+        .then(response => ({ error: null, ...response.data}))
+        .catch(err => ({ error: err }))
+}
 
 module.exports = {
     getRandomUsers,
-    getWeather
+    getWeather,
+    getDailyQuote
 }

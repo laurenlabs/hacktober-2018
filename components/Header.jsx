@@ -15,6 +15,9 @@ const Header = () => (
     <Link href="/weather">
       <a className="header__item">Weather</a>
     </Link>
+    <Link href="/quote">
+      <a className="header__item">Quote</a>
+    </Link>
     <Link href="https://hacktoberfest.digitalocean.com/">
       <a className="header__item">Hacktoberfest</a>
     </Link>
