@@ -6,12 +6,13 @@ const style = {
   height: '300px',
 }
 
-const Image = ({ src, alt }) => 
-  <img src={src} alt={alt} style={style}/>
+const Image = ({ src, alt, className = '' }) => 
+  <img src={src} alt={alt} style={style} className={`image ${className}`}/>
 
 Image.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
+  className: PropTypes.string,
 }
 
 export default Image

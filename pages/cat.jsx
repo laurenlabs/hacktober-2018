@@ -23,7 +23,9 @@ class Cat extends React.Component {
   render() {
     const { src } = this.state
     return <Page>
-      <Image src={src} alt="cat"/>
+      <div className="cat__main">
+        { src && <Image src={src} alt="cat" className="cat__image"/> }
+      </div>
     </Page>
   }
 }
