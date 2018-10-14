@@ -113,3 +113,25 @@
     }
   }
 }
+
+/* ==========================================================================
+  QUOTES
+========================================================================== */
+
+.quote {
+  &__main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  &__blockquote {
+    font-size: 20px;
+  }
+
+  &__author {
+    font-weight: bold;
+    font-size: 16px;
+  }
+}

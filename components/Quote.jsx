@@ -26,12 +26,12 @@ export default class Quote extends Component {
     render() {
         const { error, quote } = this.state;
         return (
-            <section>
-                <blockquote cite={quote.url}>{quote.body}</blockquote>
-                <p>- <em>{quote.author}</em></p>
-            {
-                error && <p>An error has occurred and might be related to free access consult of API. Please wait 20 seconds :D</p>
-            }
+            <section className="quote__main">
+                { quote.url &&
+                    <blockquote className="quote__blockquote" cite={quote.url}>{quote.body}</blockquote> }
+                <p className="quote__author">- <em>{quote.author}</em></p>
+            { error &&
+                <p>An error has occurred and might be related to free access consult of API. Please wait 20 seconds :D</p> }
             </section>
         )
     }
